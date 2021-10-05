@@ -1,13 +1,14 @@
 # AoCS
 Homework for HSE course "Architecture of computer systems"
+# Вариант 2
 
 # Задача 1:
 
-* Решение:
+* Решение :
 ```
 int main() {
-    std::string alphabet = "abcdefghijklmnopqrstuvwxyz", s;
-    std::cin >> s;
+    std::string alphabet = "abcdefghijklmnopqrstuvwxyz";
+    std::string s = "nwlahycrxw";
 
     for (int i = 0; i < alphabet.size(); ++i) {
         std::cout << i << ": ";
@@ -18,11 +19,11 @@ int main() {
     }
 }
 ```
-* Вывод:
+* Вывод :
 ```
 0: gpetarvkqp
 1: fodszqujpo
-2: encryption
+# 2: encryption
 3: dmbqxoshnm
 4: clapwnrgml
 5: bkzovmqflk
@@ -47,6 +48,28 @@ int main() {
 24: irgvctxmsr
 25: hqfubswlrq
 ```
-* Вывод:
+* Итог :
 Изначальный сдвиг - 2 символа.
 Закодированное слово - encryption
+
+# Задача 2
+
+* Решение :
+1) 
+a -> h (0 -> 7)
+&& 
+f -> f (5 -> 5);
+
+2)
+(a*0 + b) % 27 = 7 
+&&
+(a*5 + b) % 27 = 5;
+
+3)
+b == 7
+&&
+a == 5;
+
+* Итог :
+a = 5;
+b = 7;
