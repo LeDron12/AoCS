@@ -1,10 +1,10 @@
 # AoCS
 Homework for HSE course "Architecture of computer systems"
 
-* Задача 1:
+# Задача 1:
 
 * Решение:
-'''
+```
 int main() {
     std::string alphabet = "abcdefghijklmnopqrstuvwxyz", s;
     std::cin >> s;
@@ -17,9 +17,9 @@ int main() {
         std::cout << std::endl;
     }
 }
-'''
+```
 * Вывод:
-'''
+```
 0: gpetarvkqp
 1: fodszqujpo
 2: encryption
@@ -46,7 +46,7 @@ int main() {
 23: jshwduynts
 24: irgvctxmsr
 25: hqfubswlrq
-'''
+```
 * Вывод:
 Изначальный сдвиг - 2 символа.
 Закодированное слово - encryption
