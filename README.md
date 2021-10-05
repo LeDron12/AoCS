@@ -23,7 +23,7 @@ int main() {
 ```
 0: gpetarvkqp
 1: fodszqujpo
-# 2: encryption
+2: encryption !!!
 3: dmbqxoshnm
 4: clapwnrgml
 5: bkzovmqflk
@@ -61,9 +61,9 @@ a -> h (0 -> 7)
 f -> f (5 -> 5);
 
 2)
-(a*0 + b) % 27 = 7 
+(a•0 + b) % 27 = 7 
 &&
-(a*5 + b) % 27 = 5;
+(a•5 + b) % 27 = 5;
 
 3)
 b == 7
