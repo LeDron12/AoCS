@@ -7,6 +7,7 @@ class Room {
 public:
     std::mutex mutex;
     std::vector<Person *> residents;
+
     int index;
     int capacity;
 
